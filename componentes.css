@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box solid;
+}
+
+
+:root{
+  --negro: black;
+  --marron:brown;
+  --azul: blue;
+  --morado:purple;
+}
+
+  .header {
+    padding: 45px 10px;
+    color: #fff; 
+    text-align: center;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+
+body{
+    background-image: url(fondo_componentes.png);
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 5px;
+    padding: 5px;
+    background-attachment: fixed;
+    filter: drop-shadow(2px 4px 10px rgb(0,0,0));
+}
+
+.boton{
+  background-color: blueviolet;
+  padding: 20px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  border: solid 1px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 13px;
+  font-size: 25px;
+  font-weight: 300px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.boton.border{
+  border: solid 1px blueviolet ;
+  background-color: #fff;
+  color: blueviolet;
+}
+
+.boton.border:hover{
+  border: solid 1px #fff;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.boton:hover{
+  border: solid 1px blueviolet;
+  background-color: #fff;
+  color: blueviolet;
+
+}
+
+
+
+.boton--negro{
+  background-color: var(--negro);
+}
+.boton--marron{
+  background-color: var(--marron);
+}
+
+.boton--azul{
+  background-color: var(--azul);
+}
+
+.boton--morado{
+  background-color: var(--morado);
+}
+
+.boton__texto{
+  color: #fff;
+}
+
+.boton__icono{
+  color: #fff;
+
+}
